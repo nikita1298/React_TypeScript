@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
-import connect from "../util/messgeUtils";
 
 export default function Message () {
   useEffect(() => {
-    connect();
   }, []);
 
   return (
